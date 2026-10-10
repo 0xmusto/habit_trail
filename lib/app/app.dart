@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:habit_tracker/app/router.dart';
-import 'package:habit_tracker/core/theme/app_theme.dart';
-import 'package:habit_tracker/core/theme/theme_controller.dart';
-import 'package:habit_tracker/features/tracker/presentaion/controllers/tracker_controller.dart';
+import 'package:habit_trail/app/router.dart';
+import 'package:habit_trail/core/theme/app_theme.dart';
+import 'package:habit_trail/core/theme/theme_controller.dart';
+import 'package:habit_trail/features/tracker/presentaion/controllers/tracker_controller.dart';
 
 class HabitTrackerApp extends StatelessWidget {
   const HabitTrackerApp({
