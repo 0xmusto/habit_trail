@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:habit_tracker/app/app.dart';
-import 'package:habit_tracker/app/router.dart';
-import 'package:habit_tracker/core/home_widget/home_widget_service.dart';
-import 'package:habit_tracker/core/notifications/notification_service.dart';
-import 'package:habit_tracker/core/theme/theme_controller.dart';
-import 'package:habit_tracker/features/tracker/data/tracker_repository.dart';
-import 'package:habit_tracker/features/tracker/presentaion/controllers/tracker_controller.dart';
+import 'package:habit_trail/app/app.dart';
+import 'package:habit_trail/app/router.dart';
+import 'package:habit_trail/core/home_widget/home_widget_service.dart';
+import 'package:habit_trail/core/notifications/notification_service.dart';
+import 'package:habit_trail/core/theme/theme_controller.dart';
+import 'package:habit_trail/features/tracker/data/tracker_repository.dart';
+import 'package:habit_trail/features/tracker/presentaion/controllers/tracker_controller.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
