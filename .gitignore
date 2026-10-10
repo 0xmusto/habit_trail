@@ -1,0 +1,58 @@
+# ==============================================================================
+# PROJE DOSYALARI VE CACHE (PROJE ÖZELİNDEKİLER)
+# ==============================================================================
+.metadata
+pubspec.lock
+
+# ==============================================================================
+# FLUTTER / DART / PUB İLE İLGİLİ DOSYALAR
+# ==============================================================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# ==============================================================================
+# IDE VE DÜZENLEYİCİ AYARLARI (INTELLIJ / VS CODE / ANDROID STUDIO)
+# ==============================================================================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code ayarlarını Git'e dahil etmek istemiyorsanız aşağıdaki satırın başındaki '#' işaretini kaldırın:
+#.vscode/
+
+# Android Studio derleme çıktıları
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Önizleme araçları
+.widget_preview/
+
+# ==============================================================================
+# GENEL / DİĞER ARAÇLAR VE İŞLETİM SİSTEMLERİ
+# ==============================================================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Simge ve Kod Karartma (Obfuscation) Dosyaları
+app.*.symbols
+app.*.map.json
